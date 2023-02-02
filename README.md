@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9973446&assignment_repo_type=AssignmentRepo)
 ## Práctica 7 Inserción de Sonido, Vídeo y Animaciones
 ## 2 Inserción de Vídeo
 Utilizando como base la web creada para la práctica de Bootstrap, inserta, mediante la etiqueta \<video>, en cada card, el mismo vídeo en formato webm, ogg y mp4 previamente codificados con VLC
