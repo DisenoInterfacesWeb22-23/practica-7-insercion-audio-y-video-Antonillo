@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.green-color, .btn-green-color {
+  color: #ffffff !important;
+  background-color: #4f9fb6 !important;
+}
+
+.btn-green-color:hover {
+  background-color: #65a8bb !important;
+}
+
+.hr-green {
+  color: #4f9fb6 !important;
+  background-color: #4f9fb6 !important;
+}
+
+.border-green-color {
+  border-color: #4f9fb6 !important;
+}
+
+.bg-claro {
+  background-color: rgba(101,168,187,.5) !important;
+}
+
+input:checked {
+  background-color: #65a8bb !important;
+}
+
+.animacionLogo {
+	animation-duration: 5s;
+	animation-name: animacionLogo;
+	animation-iteration-count: infinite;
+  }
+@keyframes animacionLogo{
+	from {
+		-webkit-transform: rotate(0deg);
+        transform: rotateY(0deg);
+	}
+  50%{
+		-webkit-transform: rotate(180deg);
+        transform: rotateY(180deg);
+	} 
+	to {
+		-webkit-transform: rotate(360deg);
+        transform: rotateY(360deg);
+		}
+}
+
+.animTitle {
+   animation-duration: 4s;
+   animation-name: animTexto;
+ }
+ @keyframes animTexto {
+   from {
+     margin-left: 100%;
+     width: 100%;
+   }
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+ }
+
+ .zoom {
+    transition: transform .5s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.2); 
+}
