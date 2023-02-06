@@ -76,3 +76,11 @@ input:checked {
 .zoom:hover {
     transform: scale(1.2); 
 }
+
+.blur {
+  filter:blur(8px);
+}
+
+.blur:hover {
+  filter: blur(0);
+}
